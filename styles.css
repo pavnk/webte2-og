@@ -1,0 +1,65 @@
+#navbar-toggle-check {
+    display:none
+}
+#navbar-toggle-check:checked ~ .collapse {
+    display: block;
+}
+/* Override the default Tabulator styles with the dark theme */
+.tabulator {
+    color: #fff;
+    background-color: #333;
+}
+
+/* Override the default Tabulator header styles with the dark theme */
+.tabulator .tabulator-header {
+    color: #000;
+    background-color: #444;
+}
+
+/* Override the default Tabulator cell styles with the dark theme */
+.tabulator .tabulator-row {
+    color: #fff;
+    background-color: #222;
+}
+
+/* Override the default Tabulator cell hover styles with the dark theme */
+.tabulator .tabulator-row:hover {
+    background-color: #111;
+}
+
+/* Override the default Tabulator selected cell styles with the dark theme */
+.tabulator .tabulator-row.tabulator-selected {
+    background-color: #555;
+}
+
+/* Override the default Tabulator filter row styles with the dark theme */
+.tabulator .tabulator-header-filters {
+    background-color: #444;
+}
+
+/* Override the default Tabulator filter input styles with the dark theme */
+.tabulator .tabulator-header-filters input {
+    color: #000;
+    background-color: #333;
+}
+
+/* Override the default Tabulator filter button styles with the dark theme */
+.tabulator .tabulator-header-filters button {
+    color: #000;
+    background-color: #555;
+}
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #222;
+    color: #fff;
+    border-color: #444;
+}
+.form-select {
+    background-color: #222;
+    color: #fff;
+    border-color: #444;
+}
